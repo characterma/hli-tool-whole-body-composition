@@ -1,0 +1,9 @@
+{
+  "generator-bix-tool": {
+    "project": "whole-body-composition",
+    "description": "HLI Whole Body Composition ",
+    "repo": "hli-tool-whole-body-composition",
+    "generatorVersion": "1.0.44",
+    "clean_project": "whole_body_composition"
+  }
+}

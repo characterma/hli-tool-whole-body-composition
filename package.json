@@ -1,0 +1,9 @@
+{
+  "name": "hli-tool-whole-body-composition",
+  "version": "2.0.0",
+  "description": "hli-tool-whole-body-composition",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp-hli": "^0.1.19"
+  }
+}

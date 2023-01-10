@@ -1,0 +1,27 @@
+{
+    "dplTaskFormatVersion": 2,
+    "task": {
+        "name": "whole_body_composition",
+        "version": "dev",
+        "type": "container",
+        "image": "205134639408.dkr.ecr.us-west-2.amazonaws.com/sandbox/dev/hli-tool-whole-body-composition/whole-body-composition:dev",
+        "args": {
+            "--input_dir":"<input_dir>",
+            "--model_file":"<model_file>",
+            "--modality":"<modality>",
+            "--sample_id":"<sample_id>",
+            "--output_dir": "<output_dir>",
+            "--logging_dir": "<logging_dir>",
+            "--working_dir": "<working_dir>",
+            "--output_filename": "<output_filename>",
+            "--muscle_color":"<muscle_color>",
+            "--vat_color":"<vat_color>",
+            "--asat_color":"<asat_color>"
+        }
+    },
+    "resourceRequirements": {
+        "cores": 32, 
+        "ebsSize": "medium",
+        "memoryMultiplier": 2
+    }
+}

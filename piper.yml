@@ -1,0 +1,8 @@
+# Once ready for CI:
+  # Create and push a feature branch (Very important, do not rename piper.yml during this stage)
+  # rename file to piper.yml
+  # Add, commit and push piper.yml file to feature branch
+parent: module/bix-tool
+template: gulp
+settings: 
+  agent: sdrad-high-memory

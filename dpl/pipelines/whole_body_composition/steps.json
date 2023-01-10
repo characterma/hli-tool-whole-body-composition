@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "title": "whole_body_composition",
+    "description": "Docker for whole body composition",
+    "timeout": "86400",
+    "steps": [
+    {
+        "stepName": "whole_body_composition",
+        "taskName": "whole_body_composition",
+        "taskVersion": "dev",
+        "taskType": "container",
+        "taskTimeout": "40000",
+        "taskArgs": {
+            "input_dir":"<input_dir>",
+            "model_file":"<model_file>",
+            "modality":"<modality>",
+            "sample_id": "<sample_id>",
+            "output_dir": "s3://<dpl_cache_bucket>/<exec_id>/<step_name>",
+            "logging_dir": "/clogs",
+            "working_dir": "/scratch",
+            "output_filename":"<output_filename>",
+            "muscle_color":"<muscle_color>",
+            "vat_color":"<vat_color>",
+            "asat_color":"<asat_color>"
+        }
+    }
+    ]
+}
